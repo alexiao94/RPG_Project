@@ -1,0 +1,1074 @@
+Unity Editor version:    2020.3.30f1 (1fb1bf06830e)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.3.1 (Build 21E258)
+Darwin version:          21.4.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/axiaocai/My project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49357
+Successfully changed project path to: /Users/axiaocai/My project
+/Users/axiaocai/My project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 59.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/axiaocai/My project/Assets
+GfxDevice: creating device client; threaded=0
+2022-05-01 00:45:18.669 Unity[55200:1722257] (null) preferred device: Apple M1 Pro (high power)
+2022-05-01 00:45:18.669 Unity[55200:1722257] Metal devices available: 1
+2022-05-01 00:45:18.669 Unity[55200:1722257] 0: Apple M1 Pro (high power)
+2022-05-01 00:45:18.669 Unity[55200:1722257] Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002217 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 53.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.194 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1194ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (991ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (174ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (507ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (24ms)
+				ProcessInitializeOnLoadAttributes (305ms)
+				ProcessInitializeOnLoadMethodAttributes (109ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002586 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 59.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.348 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2349ms)
+		BeginReloadAssembly (251ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (2006ms)
+			LoadAssemblies (189ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (349ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (1073ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (815ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.016483 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.014143 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.12 seconds
+Initializing Unity extensions:
+2022-05-01 00:45:23.583 Unity[55200:1722257] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001175500 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-05-01 00:45:23.586 Unity[55200:1722257] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001101500 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2202 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 213.7 MB.
+System memory in use after: 212.9 MB.
+
+Unloading 106 unused Assets to reduce memory usage. Loaded Objects now: 2672.
+Total: 2.587208 ms (FindLiveObjects: 0.095167 ms CreateObjectMapping: 0.045208 ms MarkObjects: 2.031000 ms  DeleteObjects: 0.415083 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Art/Monsters/Grass/Lizard.png
+  artifactKey: Guid(a347a8ab6ba104258b624ced6f5495eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Grass/Lizard.png using Guid(a347a8ab6ba104258b624ced6f5495eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3f5896a1ced73892a3dffa9115b76c') in 0.628535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Art/Monsters/Grass/Bug_1a.png
+  artifactKey: Guid(ab8f23c9e3bb549829cbacdd2e032b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Grass/Bug_1a.png using Guid(ab8f23c9e3bb549829cbacdd2e032b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353f7e041c27f2b912020d75a157d74b') in 0.012279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Game/Resources/NPC/Bug 1.asset
+  artifactKey: Guid(3f2ebe544cc8b4b23ba8c26f56f2806d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Resources/NPC/Bug 1.asset using Guid(3f2ebe544cc8b4b23ba8c26f56f2806d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aeef79256e544d7064253bebe72db08') in 0.381243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Art/Monsters/Grass/Bird_1.png
+  artifactKey: Guid(05f1eef98c1074d6f9016e35969242af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Grass/Bird_1.png using Guid(05f1eef98c1074d6f9016e35969242af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0982217d1a6acd0e293d3c3f3d46c66') in 0.007821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Art/Monsters/Grass/Deer_1.png
+  artifactKey: Guid(44d22f378b2f34d89ab9e768d4d2dfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Grass/Deer_1.png using Guid(44d22f378b2f34d89ab9e768d4d2dfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c4f86cbbe5dcc58f4f9189a98e8d3c') in 0.008256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Art/Monsters/Grass/Fox_2.png
+  artifactKey: Guid(60e1d70535bc74123a8aea7b0655c74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Grass/Fox_2.png using Guid(60e1d70535bc74123a8aea7b0655c74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd48dd32694fb2836da57e94c2d8bb65') in 0.008615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Art/Monsters/Grass/Spider_1.png
+  artifactKey: Guid(ef72cd9532afb421b83ff0a12edbd585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Grass/Spider_1.png using Guid(ef72cd9532afb421b83ff0a12edbd585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48825139252a6ac6dc10b1d295a2cc0b') in 0.008005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Art/Monsters/Grass/Bug_1b.png
+  artifactKey: Guid(69f5cf0865e57466086e5591524bf791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Grass/Bug_1b.png using Guid(69f5cf0865e57466086e5591524bf791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c274508e7615c3fa2361f963dc40626f') in 0.007548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Art/Monsters/Grass/Bee_1.png
+  artifactKey: Guid(9929cb56fb21d45e4b8a9a1ee53da134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Grass/Bee_1.png using Guid(9929cb56fb21d45e4b8a9a1ee53da134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23035282dfa227dd09e7080650231a4') in 0.006609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Art/Monsters/Grass/Slime_1.png
+  artifactKey: Guid(f9b6bfc1fada44c24930a9567b5c6bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Grass/Slime_1.png using Guid(f9b6bfc1fada44c24930a9567b5c6bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fd244010e3e42159fa684e5ed26c8d') in 0.007464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Art/Monsters/Grass/Snail_1.png
+  artifactKey: Guid(2266042a7437241fda59a8a3efb593fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Grass/Snail_1.png using Guid(2266042a7437241fda59a8a3efb593fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe82489a92a8c9cec94d2236759bdeb') in 0.007105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Art/Monsters/Grass/Deer_2.png
+  artifactKey: Guid(716ea80f71075413bae152c0e3b551e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Grass/Deer_2.png using Guid(716ea80f71075413bae152c0e3b551e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73eced426892c3c14bb40c1fe4f9b184') in 0.007873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Art/Monsters/Grass/Fox_1.png
+  artifactKey: Guid(ad77cf4f16b7d43caa30c9c7e141d256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Grass/Fox_1.png using Guid(ad77cf4f16b7d43caa30c9c7e141d256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ce8aa91c008a9b32abbe9ede60d465') in 0.007633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Art/Monsters/Grass/Cockatrice_1.png
+  artifactKey: Guid(f65d9eae7c7bc49fa985f7090675df3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Grass/Cockatrice_1.png using Guid(f65d9eae7c7bc49fa985f7090675df3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f6684af587d25ddb8f0ea026adaa95') in 0.008645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000780 seconds.
+  path: Assets/Art/Monsters/Grass/Bat_1.png
+  artifactKey: Guid(e86df4fe2e24540cda7695a0cbea4940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Grass/Bat_1.png using Guid(e86df4fe2e24540cda7695a0cbea4940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29598513b3425f9c8f38e8a95673523') in 0.007304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Art/Monsters/Grass/Raccoon_1.png
+  artifactKey: Guid(f663877f1d70445a8a4a23089be8e038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Grass/Raccoon_1.png using Guid(f663877f1d70445a8a4a23089be8e038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056785a6bdfdc76d7515c29c41f1d6cc') in 0.007467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Art/Monsters/Grass/Snake_1.png
+  artifactKey: Guid(e607796ee4d7e4da2b7fdb903f87b3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Grass/Snake_1.png using Guid(e607796ee4d7e4da2b7fdb903f87b3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de48fbc0f0a6ec6359c04734ce572c68') in 0.007355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.462928 seconds.
+  path: Assets/Art/Monsters/Beach/Kobold_1.png
+  artifactKey: Guid(4948503646bbf473a8f33f95744837db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Beach/Kobold_1.png using Guid(4948503646bbf473a8f33f95744837db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77fb873279849599458fbabeaf57dd3') in 0.015768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Art/Monsters/Beach/Naga_5.png
+  artifactKey: Guid(a7bc1d2b946f541498952f91bb507c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Beach/Naga_5.png using Guid(a7bc1d2b946f541498952f91bb507c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dcdefa30b5c1ce656b0d4c6cda9aca8') in 0.011963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Art/Monsters/Beach/Naga_2.png
+  artifactKey: Guid(5c4c3c8ef2b8b49dcbe31cb7a996da5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Beach/Naga_2.png using Guid(5c4c3c8ef2b8b49dcbe31cb7a996da5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aede6be82e84eebaf34f393c66d3bee') in 0.009798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Art/Monsters/Beach/Kobold_3.png
+  artifactKey: Guid(37f5e0c04aba54df3a4a6060f77da572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Beach/Kobold_3.png using Guid(37f5e0c04aba54df3a4a6060f77da572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea963d0cff76721f9cfaa44a5a8c302') in 0.008249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Art/Monsters/Beach/Naga_7.png
+  artifactKey: Guid(b8db838d3584441c8a590a343a8b38c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Beach/Naga_7.png using Guid(b8db838d3584441c8a590a343a8b38c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e694bf242273ceccf007708e25b56620') in 0.007760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Art/Monsters/Beach/Kobold_2.png
+  artifactKey: Guid(2e7ad992c006a4032a7ef38188ea21de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Beach/Kobold_2.png using Guid(2e7ad992c006a4032a7ef38188ea21de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432ff8a90af07581fe33a012b54ada5e') in 0.007100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Art/Monsters/Beach/Naga_4.png
+  artifactKey: Guid(8308c671799d14e08b172240acd7a7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Beach/Naga_4.png using Guid(8308c671799d14e08b172240acd7a7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec5b9a075e09066808cb90b085be945') in 0.008361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Art/Monsters/Beach/Naga_6.png
+  artifactKey: Guid(b69894b0c0dc24a799e4fcbeb6e6592e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Beach/Naga_6.png using Guid(b69894b0c0dc24a799e4fcbeb6e6592e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f43f6d1f007237508c72190b3b5086') in 0.008509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Art/Monsters/Beach/Naga_1.png
+  artifactKey: Guid(65f84ab1138284f41bf7a0220726ef6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Beach/Naga_1.png using Guid(65f84ab1138284f41bf7a0220726ef6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7905b70016d1be6dc719e65d1f079e05') in 0.008579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Art/Monsters/Beach/Naga_3.png
+  artifactKey: Guid(45548c637c5794e07bf022d8fd489347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Beach/Naga_3.png using Guid(45548c637c5794e07bf022d8fd489347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28edad90161ccb74d729ce2a6ddd7b82') in 0.007888 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002466 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-01 00:49:12.649 Unity[55200:1722257] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000110f330 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.132 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2134ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (35ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1850ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (335ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (995ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (157ms)
+				ProcessInitializeOnLoadAttributes (779ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2196 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 220.4 MB.
+System memory in use after: 220.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2690.
+Total: 2.388708 ms (FindLiveObjects: 0.080750 ms CreateObjectMapping: 0.043791 ms MarkObjects: 2.165459 ms  DeleteObjects: 0.097958 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002410 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-01 01:05:22.286 Unity[55200:1722257] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001179f10 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.146 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2147ms)
+		BeginReloadAssembly (204ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1852ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (333ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1016ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (796ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2196 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 221.0 MB.
+System memory in use after: 220.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2692.
+Total: 2.383167 ms (FindLiveObjects: 0.081959 ms CreateObjectMapping: 0.042750 ms MarkObjects: 2.159791 ms  DeleteObjects: 0.098000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002422 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-01 01:08:49.566 Unity[55200:1722257] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001173b10 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.127 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2128ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1843ms)
+			LoadAssemblies (167ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1006ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (163ms)
+				ProcessInitializeOnLoadAttributes (788ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2196 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 221.2 MB.
+System memory in use after: 221.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2694.
+Total: 2.292583 ms (FindLiveObjects: 0.080000 ms CreateObjectMapping: 0.042750 ms MarkObjects: 2.070750 ms  DeleteObjects: 0.098416 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000954 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-01 01:12:02.496 Unity[55200:1722257] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001176370 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.098 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2099ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (35ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1817ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (998ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (164ms)
+				ProcessInitializeOnLoadAttributes (777ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2196 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 221.4 MB.
+System memory in use after: 221.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2696.
+Total: 2.280416 ms (FindLiveObjects: 0.079209 ms CreateObjectMapping: 0.042416 ms MarkObjects: 2.052959 ms  DeleteObjects: 0.102500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000930 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-01 01:12:53.814 Unity[55200:1722257] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001149dc0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.080 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2081ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (35ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1799ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (323ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (979ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (164ms)
+				ProcessInitializeOnLoadAttributes (761ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2196 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 221.5 MB.
+System memory in use after: 221.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2698.
+Total: 2.334125 ms (FindLiveObjects: 0.078000 ms CreateObjectMapping: 0.042334 ms MarkObjects: 2.115250 ms  DeleteObjects: 0.095083 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004146 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-01 01:28:37.635 Unity[55200:1722257] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000114a450 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.040 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2041ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1747ms)
+			LoadAssemblies (196ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (314ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (938ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (727ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2196 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 221.7 MB.
+System memory in use after: 221.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2700.
+Total: 2.369667 ms (FindLiveObjects: 0.085000 ms CreateObjectMapping: 0.048667 ms MarkObjects: 2.144125 ms  DeleteObjects: 0.091250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2623.256861 seconds.
+  path: Assets/Art/Battle/Background/Battleback_Desert__Day.png
+  artifactKey: Guid(62b2eea5214d64c7dab82fcbb3f402e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_Desert__Day.png using Guid(62b2eea5214d64c7dab82fcbb3f402e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10493890c14c8dd78e0d48c0f0e627fe') in 0.117294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Art/Battle/Background/Battleback_FieldsA_Day.png
+  artifactKey: Guid(90d411406a9f342d09d5324040cff1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_FieldsA_Day.png using Guid(90d411406a9f342d09d5324040cff1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b71ac6872afd873f8c4038c25e418b') in 0.012681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Art/Battle/Background/Battleback_FieldsA_Dusk.png
+  artifactKey: Guid(3416a389647d443a08752ad209fbc0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_FieldsA_Dusk.png using Guid(3416a389647d443a08752ad209fbc0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d03915840bfc258daab4766574b2ecf') in 0.009414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Art/Battle/Background/Battleback_Meadows_Night.png
+  artifactKey: Guid(1d221b94ce4034cec9784aef2b491b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_Meadows_Night.png using Guid(1d221b94ce4034cec9784aef2b491b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4788c7ae450a8de5f15e9862634e5cfa') in 0.009388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Art/Battle/Background/Battleback_Desert_Dusk.png
+  artifactKey: Guid(82f84f1a7ece64794ac0cca3dd15f124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_Desert_Dusk.png using Guid(82f84f1a7ece64794ac0cca3dd15f124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21661dd83590dc9e12c764dc44b71ee9') in 0.008475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Art/Battle/Background/Battleback_DesertOasis_Day.png
+  artifactKey: Guid(e1e80faed2ac9492da70b54b6273ea0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_DesertOasis_Day.png using Guid(e1e80faed2ac9492da70b54b6273ea0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33631d6542f91c6979775f68a2badd7') in 0.008513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Art/Battle/Background/Battleback_DesertOasis_Dusk.png
+  artifactKey: Guid(034e6db4c9adb4d05bb35ef49703cda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_DesertOasis_Dusk.png using Guid(034e6db4c9adb4d05bb35ef49703cda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dcb35a0951daa457ec1abde3b9eb466') in 0.008853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Art/Battle/Background/Battleback_Meadows_Day.png
+  artifactKey: Guid(13f388a1fd131457b9b82c7d8c113268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_Meadows_Day.png using Guid(13f388a1fd131457b9b82c7d8c113268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43263859741cd09c25b13a9ef754cb12') in 0.008847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Art/Battle/Background/Battleback_Meadows_Dusk.png
+  artifactKey: Guid(6a82c6540f1b448d6a96da9f7a198f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_Meadows_Dusk.png using Guid(6a82c6540f1b448d6a96da9f7a198f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdecdb8dca74f6651240e03a0f2c91e4') in 0.008524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Art/Battle/Background/Battleback_DesertOasis_Night.png
+  artifactKey: Guid(5ba049060688f4ceebe286f7971c619c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_DesertOasis_Night.png using Guid(5ba049060688f4ceebe286f7971c619c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe758b258a13f895bc16408e421a167') in 0.008958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Art/Battle/Background/Battleback_FieldsB_Day.png
+  artifactKey: Guid(6b6411c16e20e433b991cfec0a408a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_FieldsB_Day.png using Guid(6b6411c16e20e433b991cfec0a408a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c804a217ab5182a36aedfc59f7d2b6e0') in 0.009076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Art/Battle/Background/Battleback_FieldsA_Night.png
+  artifactKey: Guid(d916f05f5b5454a14b8f139e25fc12b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_FieldsA_Night.png using Guid(d916f05f5b5454a14b8f139e25fc12b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07317ab8d67368147470e261b0779be') in 0.008459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Art/Battle/Background/Battleback_FieldsB_Dusk.png
+  artifactKey: Guid(73a2191665fc24b75958259a0210194a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_FieldsB_Dusk.png using Guid(73a2191665fc24b75958259a0210194a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d818945dbbd598e26b4daf0c9fe9f8') in 0.008722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Art/Battle/Background/Battleback_Desert_Night.png
+  artifactKey: Guid(b898df61db6e946e3b90acfed8915081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_Desert_Night.png using Guid(b898df61db6e946e3b90acfed8915081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edaf2d6307decc47b44e7eec67310067') in 0.008322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Art/Battle/Background/Battleback_FieldsB_Night.png
+  artifactKey: Guid(a272c1251edc54aac922c3530205620c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_FieldsB_Night.png using Guid(a272c1251edc54aac922c3530205620c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90dc2166251f589422d7ef75965e5356') in 0.009625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Art/Battle/Background/Battleback_MountainA_Day.png
+  artifactKey: Guid(563492be6f5a44242807a27d924a915b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_MountainA_Day.png using Guid(563492be6f5a44242807a27d924a915b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b07a44fd09c6bd2d61ae2fa023f5c15') in 0.008489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Art/Battle/Background/Battleback_MountainA_Dusk.png
+  artifactKey: Guid(fc7785f0eb4a8407fa4ea2425842613f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_MountainA_Dusk.png using Guid(fc7785f0eb4a8407fa4ea2425842613f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7898445999378ed9dc3e27f3e932e4f1') in 0.008963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.414640 seconds.
+  path: Assets/Art/Battle/Background/Battleback_MountainA_Night.png
+  artifactKey: Guid(7fddfa2d4cd814ba4b039962e8dc69bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_MountainA_Night.png using Guid(7fddfa2d4cd814ba4b039962e8dc69bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7fd0ca8ca8fb451ea87890e1910d4d9') in 0.019922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Art/Battle/Background/Battleback_MountainB_Day.png
+  artifactKey: Guid(2d8c6a86a170949c2b07b6f81d9b1751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_MountainB_Day.png using Guid(2d8c6a86a170949c2b07b6f81d9b1751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e01baad32fd41ad681bfd004605997') in 0.012748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Art/Battle/Background/Battleback_MountainB_Night.png
+  artifactKey: Guid(c9b07deefb98c485db960c44b9c6c26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_MountainB_Night.png using Guid(c9b07deefb98c485db960c44b9c6c26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d43d6648de9752d5a28614b52fcf7b') in 0.010439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Art/Battle/Background/Battleback_Wasteland_Night.png
+  artifactKey: Guid(0cd09f6ad0f6940899db5bfcaf080b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_Wasteland_Night.png using Guid(0cd09f6ad0f6940899db5bfcaf080b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1795f9ca8f397aa6dd8e60505862f142') in 0.009794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Art/Battle/Background/Battleback_Wasteland_Dusk.png
+  artifactKey: Guid(cc0cf2753373f45f281d285f788e1246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_Wasteland_Dusk.png using Guid(cc0cf2753373f45f281d285f788e1246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f39052c0c539462a8f0bdd59864ec06') in 0.009268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Art/Battle/Background/Battleback_Wasteland_Day.png
+  artifactKey: Guid(8d6928ee64f7b442a9faa4cfe2e329a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_Wasteland_Day.png using Guid(8d6928ee64f7b442a9faa4cfe2e329a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d6965c97988db5a0c98deec9f6b772') in 0.008696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Art/Battle/Background/Battleback_MountainB_Dusk.png
+  artifactKey: Guid(636f1481705c846d08c618d9e9c3202d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_MountainB_Dusk.png using Guid(636f1481705c846d08c618d9e9c3202d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7d9884f9eab0777b7e06c3add2e625') in 0.008750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.284009 seconds.
+  path: Assets/Art/Battle/Background/Battleback_MountainB_Day.png
+  artifactKey: Guid(2d8c6a86a170949c2b07b6f81d9b1751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_MountainB_Day.png using Guid(2d8c6a86a170949c2b07b6f81d9b1751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab77ab463929cbe10eec043f9f8064fc') in 0.009515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Art/Battle/Background/Battleback_MountainA_Night.png
+  artifactKey: Guid(7fddfa2d4cd814ba4b039962e8dc69bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_MountainA_Night.png using Guid(7fddfa2d4cd814ba4b039962e8dc69bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b825d7dfdcfb803d95596c207fcc45') in 0.009277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Art/Battle/Background/Battleback_MountainB_Night.png
+  artifactKey: Guid(c9b07deefb98c485db960c44b9c6c26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_MountainB_Night.png using Guid(c9b07deefb98c485db960c44b9c6c26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9c271319c5e2caf6389f1b729a6741') in 0.009514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Art/Battle/Background/Battleback_Wasteland_Night.png
+  artifactKey: Guid(0cd09f6ad0f6940899db5bfcaf080b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_Wasteland_Night.png using Guid(0cd09f6ad0f6940899db5bfcaf080b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df319442a3c5f5fba79fef296835d034') in 0.009232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Art/Battle/Background/Battleback_Meadows_Night.png
+  artifactKey: Guid(1d221b94ce4034cec9784aef2b491b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_Meadows_Night.png using Guid(1d221b94ce4034cec9784aef2b491b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a5c6661b5567c0dd27b06fae13add2') in 0.008587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Art/Battle/Background/Battleback_Wasteland_Dusk.png
+  artifactKey: Guid(cc0cf2753373f45f281d285f788e1246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_Wasteland_Dusk.png using Guid(cc0cf2753373f45f281d285f788e1246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e6259156a0334902cc0eeea62d3953') in 0.008970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Art/Battle/Background/Battleback_Meadows_Day.png
+  artifactKey: Guid(13f388a1fd131457b9b82c7d8c113268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_Meadows_Day.png using Guid(13f388a1fd131457b9b82c7d8c113268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679c4361ba181a68174781b4ab6f53a9') in 0.009236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Art/Battle/Background/Battleback_Meadows_Dusk.png
+  artifactKey: Guid(6a82c6540f1b448d6a96da9f7a198f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_Meadows_Dusk.png using Guid(6a82c6540f1b448d6a96da9f7a198f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b331d02596f3f9a11ab5486ce3cb37d0') in 0.008453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Art/Battle/Background/Battleback_Wasteland_Day.png
+  artifactKey: Guid(8d6928ee64f7b442a9faa4cfe2e329a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_Wasteland_Day.png using Guid(8d6928ee64f7b442a9faa4cfe2e329a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58770ffc6b4fdb4694d3c3eceb70176') in 0.007840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Art/Battle/Background/Battleback_MountainB_Dusk.png
+  artifactKey: Guid(636f1481705c846d08c618d9e9c3202d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_MountainB_Dusk.png using Guid(636f1481705c846d08c618d9e9c3202d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996a6f4a76afc862874d590e25a7b9e4') in 0.008821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Art/Battle/Background/Battleback_MountainA_Day.png
+  artifactKey: Guid(563492be6f5a44242807a27d924a915b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_MountainA_Day.png using Guid(563492be6f5a44242807a27d924a915b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f659c78da5436df7efe191d711d6951') in 0.008610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Art/Battle/Background/Battleback_MountainA_Dusk.png
+  artifactKey: Guid(fc7785f0eb4a8407fa4ea2425842613f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_MountainA_Dusk.png using Guid(fc7785f0eb4a8407fa4ea2425842613f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d7b0fb594bf857882671a5dba6beb1') in 0.008954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.615441 seconds.
+  path: Assets/Art/Battle/Background/Battleback_FieldsA_Night.png
+  artifactKey: Guid(d916f05f5b5454a14b8f139e25fc12b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_FieldsA_Night.png using Guid(d916f05f5b5454a14b8f139e25fc12b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7fdb9afc899603ace6021233aa6b432') in 0.018607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Art/Battle/Background/Battleback_FieldsB_Day.png
+  artifactKey: Guid(6b6411c16e20e433b991cfec0a408a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_FieldsB_Day.png using Guid(6b6411c16e20e433b991cfec0a408a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079a4c0a953074732600438fb4911b90') in 0.012617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Art/Battle/Background/Battleback_FieldsB_Dusk.png
+  artifactKey: Guid(73a2191665fc24b75958259a0210194a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_FieldsB_Dusk.png using Guid(73a2191665fc24b75958259a0210194a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf18321bf24efbfa74947d05b4f49da') in 0.010656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Art/Battle/Background/Battleback_FieldsB_Night.png
+  artifactKey: Guid(a272c1251edc54aac922c3530205620c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_FieldsB_Night.png using Guid(a272c1251edc54aac922c3530205620c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54fc2cf33d2f844d9704db75c5fee2dc') in 0.010138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.685118 seconds.
+  path: Assets/Art/Battle/Background/Battleback_DesertOasis_Dusk.png
+  artifactKey: Guid(034e6db4c9adb4d05bb35ef49703cda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_DesertOasis_Dusk.png using Guid(034e6db4c9adb4d05bb35ef49703cda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fcf9ad7c689df7cf88501c5e2ec3503') in 0.015977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Art/Battle/Background/Battleback_FieldsA_Day.png
+  artifactKey: Guid(90d411406a9f342d09d5324040cff1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_FieldsA_Day.png using Guid(90d411406a9f342d09d5324040cff1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad45c03627f2b728e3121f3c21b7d769') in 0.011078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Art/Battle/Background/Battleback_FieldsA_Dusk.png
+  artifactKey: Guid(3416a389647d443a08752ad209fbc0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_FieldsA_Dusk.png using Guid(3416a389647d443a08752ad209fbc0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea639e7cec9dd9acd4b794fc8ed77d51') in 0.010798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Art/Battle/Background/Battleback_DesertOasis_Night.png
+  artifactKey: Guid(5ba049060688f4ceebe286f7971c619c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_DesertOasis_Night.png using Guid(5ba049060688f4ceebe286f7971c619c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6d8af1e6a15c6ddedb1ff7322a6a45') in 0.009407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Art/Battle/Background/Battleback_Desert__Day.png
+  artifactKey: Guid(62b2eea5214d64c7dab82fcbb3f402e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_Desert__Day.png using Guid(62b2eea5214d64c7dab82fcbb3f402e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a3caae1f1540f5b41bbc83596c78e7') in 0.009384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Art/Battle/Background/Battleback_Desert_Dusk.png
+  artifactKey: Guid(82f84f1a7ece64794ac0cca3dd15f124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_Desert_Dusk.png using Guid(82f84f1a7ece64794ac0cca3dd15f124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0889f09de1c0b7bc9cd19b715bca9b6') in 0.008802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Art/Battle/Background/Battleback_DesertOasis_Day.png
+  artifactKey: Guid(e1e80faed2ac9492da70b54b6273ea0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_DesertOasis_Day.png using Guid(e1e80faed2ac9492da70b54b6273ea0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884844497c0e9d85a1e8349a190f3f2a') in 0.008631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Art/Battle/Background/Battleback_Desert_Night.png
+  artifactKey: Guid(b898df61db6e946e3b90acfed8915081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/Background/Battleback_Desert_Night.png using Guid(b898df61db6e946e3b90acfed8915081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68698f0da9caa9fbf20cb6b2d8fed111') in 0.008189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2936.777092 seconds.
+  path: Assets/Art/Battle/UI/Btn01.png
+  artifactKey: Guid(2889853987afc44a4bc532d11393de9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Battle/UI/Btn01.png using Guid(2889853987afc44a4bc532d11393de9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3cac049bba002b71816f3c7bfad56c') in 0.096006 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001628 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-01 16:21:56.076 Unity[55200:1722257] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001141dc0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.318 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2319ms)
+		BeginReloadAssembly (261ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (46ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (1919ms)
+			LoadAssemblies (190ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1057ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (168ms)
+				ProcessInitializeOnLoadAttributes (831ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (40ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2196 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.4 MB.
+System memory in use after: 222.4 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2707.
+Total: 2.414459 ms (FindLiveObjects: 0.093875 ms CreateObjectMapping: 0.043625 ms MarkObjects: 2.174334 ms  DeleteObjects: 0.101917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000849 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-01 16:22:08.298 Unity[55200:1722257] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001172760 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.038 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2038ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1760ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (311ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (964ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (156ms)
+				ProcessInitializeOnLoadAttributes (752ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2196 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.6 MB.
+System memory in use after: 222.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2709.
+Total: 2.196708 ms (FindLiveObjects: 0.072750 ms CreateObjectMapping: 0.041833 ms MarkObjects: 1.989792 ms  DeleteObjects: 0.091667 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
