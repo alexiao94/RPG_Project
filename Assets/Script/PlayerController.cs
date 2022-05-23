@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
     public LayerMask solidObjectsLayer;
     public LayerMask fieldLayer;
 
+    public event Action OnEncounter;
+
     private bool isMoving;
     private Vector2 input;
     private Animator animator;
@@ -18,7 +20,7 @@ public class PlayerController : MonoBehaviour
     {
      animator = GetComponent<Animator> ();   
     }
-    private void Update() 
+    public void HandleUpdate() 
     {
         if (!isMoving){
             input.x = Input.GetAxisRaw("Horizontal");
@@ -62,6 +64,8 @@ public class PlayerController : MonoBehaviour
     private void CheckForEncounters() {
         if (UnityEngine.Random.Range(1, 101) <= 10) {
             UnityEngine.Debug.Log(Physics2D.OverlapCircle(transform.position, 0.03f, fieldLayer).name);
+            animator.SetBool("isMoving",false);
+            OnEncounter();
         }
     }
 }

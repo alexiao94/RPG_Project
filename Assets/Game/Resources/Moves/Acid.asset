@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2d2879b430c54384b8cc94e824a5dac, type: 3}
   m_Name: Acid
   m_EditorClassIdentifier: 
-  name: 
+  name: Acid
   description: 
   pSTR: 1
-  pINT: 0
+  pINT: 2
   pDEX: 0
   accuracy: 70
   mpCost: 4

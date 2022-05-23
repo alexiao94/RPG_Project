@@ -9,7 +9,8 @@ public class MoveBase : ScriptableObject
 
   [TextArea]
   [SerializeField] string description;
-
+  [SerializeField] AudioClip soundVFX;
+ 
   [SerializeField] int pSTR;
   [SerializeField] int pINT;
   [SerializeField] int pDEX;
@@ -40,5 +41,8 @@ public class MoveBase : ScriptableObject
   }
   public int HpCost {
       get {return hpCost;}
+  }
+  public AudioClip SoundVFX{
+      get {return SoundVFX;}
   }
 }

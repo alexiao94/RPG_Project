@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Slash
   m_EditorClassIdentifier: 
   name: Slash
-  description: 
+  description: Regular Slash.
+  soundVFX: {fileID: 8300000, guid: ee093bc6d33fe471187f900764ee9bdf, type: 3}
   pSTR: 5
   pINT: 0
   pDEX: 0

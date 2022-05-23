@@ -26,5 +26,11 @@ MonoBehaviour:
   _dex: 7
   _luk: 5
   learnableMoves:
+  - moveBase: {fileID: 11400000, guid: bb5f97077d6c44f319a8e744caa5663b, type: 2}
+    level: 1
   - moveBase: {fileID: 11400000, guid: 484744c156d4242079d8b8deeb02b61d, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 0eec057bb5d1747ef8638fa54334c39b, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: d41bc606af5694035b2a9ccb307b718a, type: 2}
     level: 1

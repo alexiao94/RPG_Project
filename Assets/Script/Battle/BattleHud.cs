@@ -10,11 +10,18 @@ public class BattleHud : MonoBehaviour
     [SerializeField] Text levelText;
     [SerializeField] HPBar hpBar;
     [SerializeField] MPBar mpBar;
-
+    NPC _npc;
     public void SetData (NPC npc) {
-        nameText.text = npc.Base.Name + "\t" + "Lvl " + npc.level;
-        // levelText.text =  "Lvl " + npc.level;
+
+        _npc = npc;
+
+        nameText.text = npc.Base.Name;
+        levelText.text =  "Lvl " + npc.level;
         hpBar.SetHP((float)npc.HP/npc.MaxHp);
         mpBar.SetHP((float)npc.MP/npc.MaxMp);
+    }
+
+    public IEnumerator UpdateHP(){
+        yield return hpBar.SetHPSmooth((float)_npc.HP/_npc.MaxHp);
     }
 }
